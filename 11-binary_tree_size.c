@@ -8,7 +8,7 @@
 
 size_t binary_tree_size(const binary_tree_t *tree)
 {
-	size_t s1, s2;
+	size_t s1 = 0, s2 = 0;
 
 	if (!tree)
 		return (0);
