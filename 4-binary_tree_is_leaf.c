@@ -9,7 +9,7 @@
 
 int binary_tree_is_leaf(const binary_tree_t *node)
 {
-	binary_tree_t *temp;
+	const binary_tree_t *temp;
 
 	if (!node)
 		return (0);
